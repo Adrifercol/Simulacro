@@ -4,9 +4,9 @@ module SimulacroExamen {
     requires javafx.fxml;
     requires java.base;
 
-    opens adri.vista to javafx.fxml;
+    opens adri.vistas to javafx.fxml;
 
     exports adri;
-    exports adri.vista;
+    exports adri.vistas;
     exports adri.model;
 }

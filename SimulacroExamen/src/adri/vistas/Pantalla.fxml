@@ -4,7 +4,7 @@
 <?import javafx.scene.control.cell.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="379.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adri.vista.Pantalla">
+<AnchorPane prefHeight="379.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adri.vistas.Pantalla">
    <children>
       <Button layoutX="424.0" layoutY="22.0" mnemonicParsing="false" onAction="#reservar" style="-fx-background-color: #FFCCFF;" text="Reservar" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="22.0" />
       <Button layoutX="14.0" layoutY="236.0" mnemonicParsing="false" onAction="#liberar" style="-fx-background-color: #FFCCFF; -fx-border-color: #ff0000;" text="Liberar" AnchorPane.bottomAnchor="13.399999999999999" AnchorPane.leftAnchor="14.0" />

@@ -1,4 +1,4 @@
-package adri.vista;
+package adri.vistas;
 
 import adri.model.Reserva;
 import javafx.fxml.FXML;
@@ -7,7 +7,6 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TableView;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Pantalla  {
 
