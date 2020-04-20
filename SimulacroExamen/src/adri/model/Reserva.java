@@ -25,6 +25,7 @@ public class Reserva {
     public String getFechaFmt() {
         return fecha.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG));
     }
+    //esto es un comentario
 
     @Override
     public boolean equals(Object o) {
